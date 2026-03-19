@@ -1,0 +1,54 @@
+name: ocd_logger
+description: OCD Logger - Ride the wave. Don't act on the urge.
+publish_to: 'none' 
+
+# FIXED: Version rolled back to 1.0.0
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  provider: ^6.1.5
+  intl: ^0.20.2
+  uuid: ^4.5.2
+  path_provider: ^2.1.5
+  file_picker: ^10.3.10
+  share_plus: ^12.0.1
+  cupertino_icons: ^1.0.8
+  window_manager: ^0.5.1
+  shared_preferences: ^2.5.4
+  
+  web: ^1.1.1
+  universal_html: ^2.3.0
+  
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon.png
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  macos:
+    generate: true
+  image_path: "assets/icon.png"
+  remove_alpha_ios: true
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "assets/icon.png"
+    background_color: "#0F172A"
+    theme_color: "#0F172A"

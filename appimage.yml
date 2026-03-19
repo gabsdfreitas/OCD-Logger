@@ -1,0 +1,28 @@
+version: 1
+AppDir:
+  path: ./build/linux/x64/release/bundle
+  
+  app_info:
+    id: com.ocdlogger.app
+    name: OCD Logger
+    icon: icon
+    version: 1.0.0
+    exec: ./ocd_logger
+
+  apt:
+    arch: amd64
+    sources:
+      - sourceline: 'deb [arch=amd64] http://archive.ubuntu.com/ubuntu/ jammy main restricted universe multiverse'
+      - sourceline: 'deb [arch=amd64] http://archive.ubuntu.com/ubuntu/ jammy-updates main restricted universe multiverse'
+
+    packages:
+      - libgtk-3-0
+      - libglib2.0-0
+
+  files:
+    icon.png: icon.png
+
+AppImage:
+  arch: x86_64
+  file_name: ocd-logger-x86_64.AppImage
+  update-information: 'guess'

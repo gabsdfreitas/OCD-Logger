@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=OCD Logger
+Comment=A Flutter-based application for logging OCD sessions and exposure therapy
+Exec=ocd-logger
+Icon=ocd-logger
+Categories=Utility;
+Terminal=false
+StartupNotify=true
