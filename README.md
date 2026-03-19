@@ -44,6 +44,10 @@ O OCD Logger é um aplicativo multiplataforma e *local-first* projetado para aju
 
 ## Screenshots:
 
-<img width="1098" height="800" alt="Screenshot 2026-03-19 at 18 13 01" src="https://github.com/user-attachments/assets/0510a507-b382-41d1-9baf-3e64ef9634d9" />
+### Desktop:
+
+<img width="1393" height="918" alt="image" src="https://github.com/user-attachments/assets/15a68af8-9f71-4a20-988b-f3ab9d356672" />
+
+### Mobile:
 
 <img width="585" height="1266" alt="image" src="https://github.com/user-attachments/assets/4f2291a2-b757-4f24-9ac3-c880e439451d" />
